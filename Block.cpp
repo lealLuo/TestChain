@@ -1,6 +1,6 @@
 #include "Block.h"
 #include "sha256.h"
-
+#include <time.h>
 #include <sstream>
 
 Block::Block(uint32_t nIndexIn, const string &sDataIn) : _nIndex(nIndexIn), _sData(sDataIn)
